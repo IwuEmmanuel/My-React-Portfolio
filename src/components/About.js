@@ -40,11 +40,11 @@ export default function About() {
                        alt={author.name}
                    />
                 <div className="text-lg flex flex-col justify-center">
-                       <h1 className="cursive text-6xl text-green-200 mb-4">
+                       <h1 className="cursive textHead text-green-200 mb-4 inline-block">
                            Hey there. I'm {" "}
                            <span className="text-green-100 ">{author.name}</span>
                        </h1>
-                       <div className="prose lg:prose-xl  lg:text-white text-black-900">
+                       <div className="prose lg:prose-xl lg:text-white text inline-block">
                         <BlockContent 
                         blocks={author.bio} 
                         projectId="v3y5b6nd"

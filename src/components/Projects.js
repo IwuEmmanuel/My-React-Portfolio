@@ -49,7 +49,7 @@ export default function Projects() {
                                 <strong className="font-bold">Type</strong>:{" "}
                                 {project.projectType}
                             </span>
-                            <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                            <p className="my-6 text inline-block text-gray-700 leading-relaxed">
                             {project.description}
                             </p>
                             <a href={project.hostedUrl} rel="noopener noreferrer"

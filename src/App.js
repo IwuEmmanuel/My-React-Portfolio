@@ -18,7 +18,7 @@ function App() {
         <Route component={Post} path = '/post'/>
         <Route component={Projects} path = '/projects'/>
       </Switch>
-       <Footer/>
+    <Footer/>
     </BrowserRouter>
    
   ) 

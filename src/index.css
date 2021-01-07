@@ -27,4 +27,70 @@
   font-size: 150px;
 }
 
+.text{
+  font-size: large;
+  
+  
+}
+
+.textHead {
+  font-size: 70px;
+  line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .home-name {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-name {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: 12px;
+    color: black;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size:12px;
+    color: black;
+
+    
+   
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text {
+    font-size: 10px;
+    text-align: justify;
+    color: black;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textHead {
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .textHead {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
 
